@@ -1,0 +1,104 @@
+/* .allcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 50px;
+    padding: 10px 0px;
+    width: 80%;
+    margin: auto;
+}
+.leftsidecontnav{
+    display: flex;
+    flex-direction: row;
+}
+.rightsidecontnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.rightsidecontnav > p {
+    margin-right: 10px;
+} */
+
+.allcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f8f9fa; /* Light background for better appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.leftsidecontnav {
+    display: flex;
+    align-items: center;
+    gap: 80px; /* Add consistent spacing */
+}
+
+
+.leftsidecontnav img {
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+
+.leftsidecontnav .chakra-input {
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+.rightsidecontnav {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Equal spacing between items */
+}
+
+.rightsidecontnav > p {
+    margin: 0;
+    color: #333; /* Neutral text color */
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.rightsidecontnav > p:hover {
+    color: #ff0000; /* Change color on hover */
+}
+
+.rightsidecontnav .user-name {
+    font-weight: bold; /* Highlight user's name */
+}
+
+.rightsidecontnav .logout-btn {
+    color: #dc3545; /* Highlight logout button */
+    font-weight: bold;
+}
+
+.rightsidecontnav .logout-btn:hover {
+    text-decoration: underline;
+}
+
+.rightsidecontnav .cart {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.rightsidecontnav .cart:hover {
+    text-decoration: underline;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-container .chakra-input {
+    flex: 1;
+}
